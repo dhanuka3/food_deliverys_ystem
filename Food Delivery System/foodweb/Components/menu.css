@@ -1,0 +1,195 @@
+/* Menu.css */
+
+/* Background Styling */
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styling */
+  .container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  /* Jumbotron Styling */
+  .jumbotron {
+    background: linear-gradient(135deg, #007bff, #6a11cb);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown 1s ease;
+  }
+  
+  .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .jumbotron p {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
+  /* Button Styling */
+  .btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    border: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #0072ff, #00c6ff);
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.6);
+    transform: translateY(-3px);
+  }
+  
+  .btn-danger {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    border: none;
+    color: white;
+    box-shadow: 0 5px 15px rgba(255, 118, 144, 0.4);
+  }
+  
+  .btn-danger:hover {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    box-shadow: 0 8px 20px rgba(255, 118, 144, 0.7);
+    transform: translateY(-3px);
+  }
+  
+  /* Form Styling */
+  .card {
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background: white;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  .card-body form .form-group label {
+    font-weight: 500;
+  }
+  
+  .card-body form .form-group input,
+  .card-body form .form-group select {
+    border-radius: 30px;
+    padding: 15px;
+    border: 2px solid #e6e6e6;
+    transition: border-color 0.3s;
+  }
+  
+  .card-body form .form-group input:focus,
+  .card-body form .form-group select:focus {
+    border-color: #007bff;
+  }
+  
+  .card-body form button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Table Styling */
+  .table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+  }
+  
+  .table th {
+    font-weight: 600;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .table td {
+    background-color: white;
+    padding: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    border: none;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .table tbody tr:hover td {
+    transform: translateY(-5px);
+  }
+  
+  .table tbody tr:nth-child(even) td {
+    background-color: #f8f9fa;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .btn-group button {
+      margin-bottom: 10px;
+    }
+  
+    .table {
+      font-size: 0.9rem;
+    }
+  
+    .card {
+      margin-bottom: 20px;
+    }
+  
+    .jumbotron h1 {
+      font-size: 2rem;
+    }
+  
+    .jumbotron p {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Animations */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,101 @@
+.contact-container {
+  padding: 50px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #fff;
+  text-align: center;
+}
+
+.contact-header {
+  margin-bottom: 50px;
+}
+
+.contact-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-header p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  color: #ff7e5f;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+.input-box input,
+.input-box textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 30px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-box textarea {
+  resize: none;
+  height: 100px;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+  border-color: #ff7e5f;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background: #ff7e5f;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #feb47b;
+}
