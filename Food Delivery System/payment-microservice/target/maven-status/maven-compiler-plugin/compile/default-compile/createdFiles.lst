@@ -1,9 +1,0 @@
-com\ead\payment_microservice\PaymentMicroserviceApplication.class
-com\ead\payment_microservice\controller\ItemController.class
-com\ead\payment_microservice\entity\Item.class
-com\ead\payment_microservice\repository\ItemRepository.class
-com\ead\payment_microservice\repository\PaymentRepository.class
-com\ead\payment_microservice\controller\PaymentController.class
-com\ead\payment_microservice\entity\Payment.class
-com\ead\payment_microservice\service\ItemService.class
-com\ead\payment_microservice\service\PaymentService.class
